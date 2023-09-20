@@ -10,5 +10,6 @@ public class SpawnPlatform : Platform
     private void Awake()
     {
         Instantiate(_ball, _spawnPoint.position, Quaternion.identity);
+        Debug.Log("das");
     }
 }
